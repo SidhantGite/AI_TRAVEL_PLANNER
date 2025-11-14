@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # Load environment variables
 
 load_dotenv()
-GROQ_API_KEY="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"
+GROQ_API_KEY="your_api_key"
 # ──────────────────────────────
 # Define a simple LSTM model for itinerary optimization
 # ──────────────────────────────
@@ -110,5 +110,6 @@ if submitted:
 
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
+
 
 
